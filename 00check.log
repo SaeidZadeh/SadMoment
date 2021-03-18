@@ -1,0 +1,110 @@
+* using log directory ‘/Users/saeid/Desktop/To save/SADmoment.Rcheck’
+* using R version 3.5.2 (2018-12-20)
+* using platform: x86_64-apple-darwin15.6.0 (64-bit)
+* using session charset: UTF-8
+* checking for file ‘SADmoment/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘SADmoment’ version ‘1.2’
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  ‘copula’ ‘BB’ ‘stats4’ ‘VGAM’ ‘sads’ ‘bbmle’ ‘poilog’ ‘splines’
+  ‘BBmisc’
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .DS_Store
+  R/.DS_Store
+  data/.DS_Store
+  man/.DS_Store
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘SADmoment’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Packages in Depends field not imported from:
+  ‘BB’ ‘BBmisc’ ‘VGAM’ ‘bbmle’ ‘copula’ ‘poilog’ ‘sads’ ‘splines’
+  ‘stats4’
+  These packages need to be imported from (in the NAMESPACE file)
+  for when this namespace is loaded but not attached.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Dist_Moment: no visible global function definition for ‘lm’
+LLfun: no visible global function definition for ‘uniroot’
+LLfun: no visible global function definition for ‘is.error’
+LLfun: no visible global function definition for ‘mle2’
+LLfun: no visible global function definition for ‘AIC’
+LLfun: no visible global function definition for ‘coef’
+LLfun: no visible global function definition for ‘poilogMLE’
+SAD_Moment: no visible global function definition for ‘hist’
+SAD_Moment: no visible global function definition for ‘lines’
+datfun: no visible global function definition for ‘runif’
+extpfun: no visible global function definition for ‘lm’
+extpfun: no visible global function definition for ‘residuals’
+extrapolation.dist: no visible global function definition for ‘lm’
+extrapolation.raw: no visible global function definition for ‘lm’
+manage_data: no visible global function definition for ‘runif’
+moment1: no visible global function definition for ‘polylog’
+momfun: no visible global function definition for ‘runif’
+ptransform: no visible global function definition for ‘polylog’
+ro.c.z: no visible global function definition for ‘lm’
+Undefined global functions or variables:
+  AIC coef hist is.error lines lm mle2 poilogMLE polylog residuals
+  runif uniroot
+Consider adding
+  importFrom("graphics", "hist", "lines")
+  importFrom("stats", "AIC", "coef", "lm", "residuals", "runif",
+             "uniroot")
+to your NAMESPACE file.
+* checking Rd files ... WARNING
+SADmoment-package.Rd: non-ASCII input and no declared encoding
+problem found in ‘SADmoment-package.Rd’
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘dbci’
+Undocumented data sets:
+  ‘dbci’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  
+  Note: significantly better compression could be obtained
+        by using R CMD build --resave-data
+             old_size new_size compress
+  dbci.RData    2.2Mb    1.3Mb       xz
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 3 WARNINGs, 5 NOTEs
